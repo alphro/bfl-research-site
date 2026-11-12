@@ -1,0 +1,27 @@
+BFL REPORT STANDARD v1 — 2026-11-11
+
+Reference: canonical Site similarity workbook/similarity_workbook.html.
+Use warm paper (#f4f3ee), white figure surfaces, green navigation (#245b49), serif major headings, readable system body text, numbered/tabbed questions, concise findings, and full-width graphics. Do not force all figures into tiny cards.
+
+Report levels:
+1. PROJECT WORKBOOK — persistent concept/experiment collection across dates; contains multiple related experiment families and figures. One primary research parent, multiple explicit related branches; owner/team recorded. Open/extensible is not equivalent to jobs running. Reference is not equivalent to every result validated.
+2. EXPERIMENT REPORT — one defined comparison/protocol, with smaller work items and figures. Explicitly link its project workbook.
+3. WEEKLY REPORT — evidence-backed dated slice across projects, with an index and small location tree. Link the current project workbook and preserve original snapshots. A current report is not a historical snapshot.
+4. CONCEPT NOTE — proposed questions or methods, visibly distinguished from empirical results.
+
+Top mini-table required:
+Title/type; parent/project; research path; owner chat/team; period; scientific-content updated date with basis (unknown allowed); navigation/metadata update date separately; iteration if recorded; evidence/result status. Then question and a short figure/section index.
+
+Tabs follow questions, not arbitrary filenames. Each figure records comparison, population/split, date/basis, concise finding and material limits. Typeset equations and define variables. Controls must be keyboard accessible. Use native tables for comparisons. Keep original charts and metric definitions; never redraw numeric results from memory.
+
+Naming:
+BFL — <Project> [workbook]
+BFL — <Project> — <Comparison> [experiment]
+BFL Weekly Results — <date interval> [weekly]
+Stable IDs live in the Home catalog. Titles may improve without breaking physical paths.
+
+Construction policy:
+Use this style for future maintained reports and substantive revisions. Do not bulk restyle frozen archives or regenerate scientific data. Shared reports may use the Home wrapper for metadata to avoid conflicting per-family headers. Update owner intake and generator together. Home owns project_collections.json, the global tree, weekly wrappers and aggregate navigation.
+
+Canonical Home: [local artifact; not published] Core/outputs/bfl_research_home/index.html
+Owner contract: ../TREE_CONTRACT.txt

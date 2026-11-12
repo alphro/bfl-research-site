@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "owner": "<chat id/title>",
+  "week_start": "2026-11-06",
+  "week_end": "2026-11-12",
+  "updates": [],
+  "figures": [],
+  "protocol_records": [],
+  "notes": "Use exact experiment IDs; metadata-only changes are not result events."
+}

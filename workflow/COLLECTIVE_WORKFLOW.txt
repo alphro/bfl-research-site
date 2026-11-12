@@ -1,0 +1,20 @@
+BFL COLLECTIVE WORKFLOW v2 — effective 2026-11-11
+
+WEEK: Friday 00:00 through Thursday 23:59, America/Los_Angeles. Current collection: 2026-11-06_to_2026-11-12. Earlier authored reports retain original dates. Monday–Sunday navigation exports are legacy generated indexes, not renamed history.
+
+WORK IN STABLE PROJECTS; COLLECT BY WEEK
+Keep code, input data, fitted objects and large cluster outputs in stable canonical project locations. Do not copy them every week or break active jobs. Put only report-ready figure exports, concise dated findings, manifest links and protocol changes in the weekly intake folder:
+Core/outputs/bfl_research_home/weekly_intake/<Friday>_to_<Thursday>/<owner>/
+Each owner writes only its own update.json and optional figures/<project-id>/. Keep source paths and figure provenance. The publisher writes the consolidated report under Desktop/BFL Research/Reports/Dated collections/Weekly research/<period>/.
+A week is not closed automatically. On the user's Thursday consolidation request, Home validates evidence, combines figures/findings, links to project workbooks, freezes a revision, and updates the tree. Do not launch recurring tasks or duplicate owner automations for this process.
+
+PROJECT RESPONSIBILITY
+Each project has a stable ID, a canonical workbook, owner/team, primary parent and related IDs. A canonical report_metadata.json (or equivalent existing sidecar) is the shared structured summary; optionally embed the same record as application/json with id=bfl-report-metadata in its HTML. Do not independently paraphrase protocols in multiple places. Home reads the owner record and displays it in the sidebar.
+Each experiment/arm has its own protocol ID when splits, oracle information, source models or seeds differ. Never collapse 80%-fit/20%-holdout into 20%-labeled/80%-evaluated. A project-wide seed/split may be null if it contains multiple designs.
+
+REQUIRED HANDOFF
+Stable experiment/work-item IDs; question; math; source HTML; status and limitations; dated evidence; reproducibility protocol (see EXPERIMENT_RECORD.schema.json); figures with exact title, finding, asset path, source report, comparison/metric, and review/result dates. Unknown fields are null with a reason, never guessed.
+Classify changes: new_experiment, design_revision, result, verification, report_revision, metadata_only. New branch marking needs explicit creation evidence; first observation alone is insufficient. Navigation/metadata updates do not refresh scientific recency.
+
+THURSDAY COLLECTOR CHECKLIST
+Validate local paths and the protocol's split/label budget; preserve seed manifest/checksum; check figures match the intended arms and metric; retain convergence caveats. Index updates by exact work-item ID and date. Copy/export small presentation artifacts only. Never infer job success from completed scheduler status. Mark evidence gaps, unresolved ownership and nonportable links. Produce one consolidated visual findings report plus provenance/work index and branch activity map. Record revision and evidence cutoff; preserve prior published revision before scientific content changes.

@@ -1,0 +1,15 @@
+BFL REPORT FORMAT v2
+
+Use ../report_standard/REPORT_STANDARD.txt and starter.html for warm-paper/green tabbed layout.
+Names: BFL — <Project>; BFL — <Project> — <Comparison>; BFL Weekly Results — <Friday–Thursday range>. Stable IDs do not change with display titles.
+
+Top table: title/type; stable project/experiment ID; primary parent/research path; owner/team; period; last substantive work date with evidence; last scientific result date if distinct; metadata/navigation refresh separately; revision; status.
+Then: short question; equations with notation; protocol table; figure index; figures with succinct findings and uncertainty/limitations; unresolved questions; source artifacts; parent/related/workbook links.
+
+PROTOCOL TABLE
+Data/sites and population; source likelihood method and K/sparsity/input set; seed(s) or exact seed-manifest location; saved split IDs/manifests and checksums; label selection (random/stratified); fit/labeled/evaluation counts and denominator; whether evaluated symptoms enter inference; whether evaluated labels enter any oracle; parameters fixed and estimated; priors; inference settings; metric/estimand; convergence and validation evidence; code/config/result paths. If unavailable, display Unknown/not recorded and its reason. For a collection of heterogeneous experiments, list separate protocol IDs rather than one misleading design.
+
+TREE SIDEBAR
+Reads the same structured record. Displays the question, succinct finding, last substantive activity, exact protocol, equations, limits and canonical HTML. No new full narrative needs to be written merely to populate the tree. Stable project color is independent of outcome; tint indicates dated recency. Side-projects inherit their domain family hue.
+
+Do not restyle frozen exports or change scientific content solely for compliance. For current maintained workbooks, update metadata/header and generator together when safe. Otherwise create/update a canonical sidecar and let Home expose it through the common wrapper, explicitly recording why direct insertion was deferred.

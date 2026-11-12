@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BFL experiment protocol record",
+  "type": "object",
+  "required": [
+    "experiment_id",
+    "canonical_report",
+    "question",
+    "protocol",
+    "evidence"
+  ],
+  "properties": {
+    "experiment_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_report": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "question": {
+      "type": "string"
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_substantive_update": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata_updated": {
+      "type": "string"
+    },
+    "protocol": {
+      "type": "object",
+      "properties": {
+        "data_population": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source_model": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "seed": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "split": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "label_selection": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "fit_population": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "evaluation_population": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "evaluation_symptoms_in_fit": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "evaluation_labels_in_oracle": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "fixed_parameters": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "estimated_parameters": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "priors": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "inference": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "metrics": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "validation": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "code_config_paths": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "data_population",
+        "source_model",
+        "seed",
+        "split",
+        "label_selection",
+        "fit_population",
+        "evaluation_population",
+        "evaluation_symptoms_in_fit",
+        "evaluation_labels_in_oracle",
+        "fixed_parameters",
+        "estimated_parameters",
+        "priors",
+        "inference",
+        "metrics",
+        "validation",
+        "code_config_paths"
+      ]
+    },
+    "unknown_reasons": {
+      "type": "object"
+    },
+    "equations": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "html_changes": {
+      "type": "array"
+    }
+  }
+}
